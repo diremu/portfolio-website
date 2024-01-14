@@ -1,0 +1,13 @@
+.color-name {
+    background: linear-gradient(90deg, #00ffff,#0066ff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+div p {
+    font-size: 2.3rem;
+    font-weight: 700;
+    padding: 0 5%;
+    text-align: center;
+}

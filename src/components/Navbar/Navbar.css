@@ -1,0 +1,44 @@
+* {
+    outline: solid 1px red;
+}
+
+html {
+    min-width: 750px;
+}
+nav {
+    font-size: 1.1em;
+}
+
+nav ul {
+    display: flex;
+    gap: 1.4rem;
+    margin: none;
+    flex-wrap: nowrap;
+    justify-content:center;
+    align-items: flex-end;
+}
+
+nav li {
+    list-style: none;
+}
+
+nav li:first-child {
+    font-size: 1.8rem;
+    font-weight: 750;
+    flex-basis: 65%;
+}
+
+.selected {
+    font-weight: 700;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: black;
+    border: none;
+}
+
+a:hover {
+    color: #5c5c5c;
+    transition: .8s;
+}

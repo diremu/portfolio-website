@@ -1,12 +1,10 @@
 * {
-    outline: solid 1px red;
+    outline: 1px solid red;
 }
 
-html {
-    min-width: 750px;
-}
 nav {
     font-size: 1.1em;
+
 }
 
 nav ul {
@@ -17,6 +15,7 @@ nav ul {
     justify-content:center;
     align-items: flex-end;
     padding:0;
+    border-bottom: 1.5px solid #5c5c5c;
 }
 
 nav li {
@@ -42,4 +41,14 @@ nav ul a {
 a:hover {
     color: #5c5c5c;
     transition: .8s;
+    border-bottom: 2px solid black;
+}
+
+#code-image {
+    height: 20px;
+    width: auto;
+}
+
+#nav-title {
+    color: #00012be5;
 }

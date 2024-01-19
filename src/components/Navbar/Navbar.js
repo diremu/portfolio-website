@@ -5,7 +5,7 @@ const Navbar = () => {
     return(
         <nav>
             <ul>
-                <li>Diremu.</li>
+                <li><span id="nav-title">Diremu.</span> <img src={Code} alt=""  id="code-image"/></li>
                 <li className="selected"><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#skills">Skills and Works</a></li>

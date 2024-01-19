@@ -1,0 +1,11 @@
+#home-div {
+    display: flex;
+    flex-direction: column;
+}
+
+#home-div-heading {
+    text-align: right;
+    gap: 1rem;
+    color: #131313f1;
+    font-size: 1.75em;
+}

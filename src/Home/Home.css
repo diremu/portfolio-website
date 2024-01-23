@@ -8,4 +8,25 @@
     gap: 1rem;
     color: #131313f1;
     font-size: 1.75em;
+    margin: 0;
+    border-bottom: 1px solid  #5c5c5c;
+}
+
+
+#home-div-p {
+    text-align: left;
+    font-size: 1.4em;
+    font-weight: 470;
+    animation-name: 'homediv';
+    padding: 0.5% 5%;
+    animation: 'homediv' 3s slide-in-out infinite;
+}
+
+@keyframes homediv {
+    0% {
+        flex-basis: 100%
+    }
+    100% {
+        flex-basis:0%;
+    }
 }

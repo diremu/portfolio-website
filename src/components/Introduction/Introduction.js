@@ -3,7 +3,7 @@ import './Introduction.css'
 function Introduction () {
     return (
         <div id="introduction">
-            <p>I am <span className="color-name">Diremu</span>. I bring the <span id="clr-id">ID</span> to your ideas and the <span id="show-name">completion</span> to your plans</p>
+            <p>Welcome to a <span className="color-name">site</span> for sore eyes.</p>
         </div>
     )
 }

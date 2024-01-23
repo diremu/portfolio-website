@@ -1,5 +1,5 @@
 * {
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
 }
 
 nav {
@@ -28,8 +28,9 @@ nav li:first-child {
     flex-basis: 65%;
 }
 
-.selected {
+.active {
     font-weight: 700;
+    border-bottom:1px solid #5c5c5c;
 }
 
 nav ul a {
@@ -40,7 +41,10 @@ nav ul a {
 
 a:hover {
     color: #5c5c5c;
-    transition: .8s;
+    transition-duration:.8s;
+    transition-property:all;
+    transition-timing-function:step-start ;
+    transition-delay:0ms ;
     border-bottom: 2px solid black;
 }
 

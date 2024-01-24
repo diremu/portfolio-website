@@ -35,7 +35,7 @@ nav li:first-child {
 
 nav ul a {
     text-decoration: none;
-    color: black;
+    color: white;
     border: none;
 }
 
@@ -54,5 +54,5 @@ a:hover {
 }
 
 #nav-title {
-    color: #00012be5;
+    color: #1d1e75e5;
 }

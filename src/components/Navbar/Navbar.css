@@ -1,10 +1,9 @@
 * {
-    /* outline: 1px solid red; */
+    outline: 1px solid red;
 }
 
 nav {
     font-size: 1.1em;
-
 }
 
 nav ul {
@@ -28,7 +27,7 @@ nav li:first-child {
     flex-basis: 65%;
 }
 
-.active {
+.selected {
     font-weight: 700;
     border-bottom:1px solid #5c5c5c;
 }
@@ -46,6 +45,10 @@ a:hover {
     transition-timing-function:step-start ;
     transition-delay:0ms ;
     border-bottom: 2px solid black;
+}
+
+nav ul li:last-child {
+    text-wrap:nowrap;
 }
 
 #code-image {

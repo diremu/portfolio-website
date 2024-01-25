@@ -5,17 +5,17 @@ import Twitter from '../Images/twitter-logo.png'
 
 function Footer() {
     return (
-        <div>
+        <div className="footer-container">
             <p>You can contact me at the following handles:</p>
-            <nav>
+            <nav className="footer-nav">
                 <li>
-                    <ul><a href="https://twitter.com" target="_blank" rel="noreferrer" ><img src={Gmail} alt="Gmail" /></a></ul>
-                    <ul><a href="https://reddit.com" target="_blank" rel="noreferrer" ><img src={Reddit} alt="Reddit"/></a></ul>
-                    <ul><a href="https://twitter.com" target="_blank" rel="noreferrer" ><img src={Twitter} alt="Twitter" /></a></ul>
+                    <ul><a href="https://gmail.com" target="_blank" rel="noreferrer"  ><img src={Gmail} alt="Gmail" className="social-handle"  /></a></ul>
+                    <ul><a href="https://reddit.com" target="_blank" rel="noreferrer"  ><img src={Reddit} alt="Reddit" className="social-handle" /></a></ul>
+                    <ul><a href="https://twitter.com" target="_blank" rel="noreferrer"  ><img src={Twitter} alt="Twitter" className="social-handle"  /></a></ul>
                 </li>
             </nav>
         </div>
     )
 }
 
-export default Footer();
+export default Footer;

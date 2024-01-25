@@ -3,17 +3,20 @@
     flex-direction: column;
 }
 
-#home-div-heading {
-    text-align: right;
-    gap: 1rem;
-    color: #9c9c9c;
-    font-size: 1.75em;
-    margin: 0;
+#home-div-hdiv {
     border-bottom: 1px solid  #5c5c5c;
     width:-moz-fit-content;
     width:fit-content;
     padding: 0 0 0 10%;
     align-self: flex-end;
+}
+
+#home-div-heading {
+    text-align: right;
+    gap: 1rem;
+    color: #9c9c9c;
+    font-size: 1.75em;
+    margin:0;
     animation-name:heading;
     animation-duration: 1.5s;
     animation-iteration-count: 1;
@@ -22,11 +25,12 @@
 
 @keyframes heading {
     from {
-        opacity:0;
+        font-size: 0.1em;
         margin-right: 100%
     }
 
     to {
+        font-size:1.75em;
         opacity: 1;
         margin-right: 0%;
     }

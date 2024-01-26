@@ -34,12 +34,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/diremu/portfolio-website.git"
-  },
-  "homepage": "https://github.com/diremu/portfolio-website#readme",
-  "license": "ISC",
-  "author": "Diremu Adebanjo"
+  }
 }

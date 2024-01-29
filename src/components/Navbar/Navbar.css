@@ -34,19 +34,28 @@ nav li:first-child {
 nav ul a {
     text-decoration: none;
     border: none;
-    color: white;
+    /* color: white; */
     padding:10px 10px 0 10px;
 }
 
 #top-nav a:hover {
-    background-color:#0558a5;
+    background-color:var(--h-color);
     color: whitesmoke;
     transition-duration:.8s;
     transition-property:all;
     transition-timing-function:step-start ;
-    transition-delay:0ms ;
-    border-bottom: 2px solid white;
+    border-bottom: 2px solid #111000;
     border-radius: 7%;
+    font-weight: 600;
+}
+
+#top-nav a:visited {
+    color: black;
+}
+
+#top-nav a:visited:hover {
+    color: whitesmoke;
+    font-weight: 700;
 }
 
 nav ul li:last-child {

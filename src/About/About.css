@@ -4,6 +4,13 @@
 }
 #about-div {
     padding:0 1%;
+
+}
+
+.life-divs {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
 }
 .life-divs p {
     font-size: 1.4em
@@ -15,6 +22,8 @@
     width:fit-content;
     padding-right: 3%;
     color: var(--h-color);
+    flex-basis: 100%;
+    margin:0;
 }
 
 #education-div h2 {
@@ -39,4 +48,13 @@
         margin-left: 0%;
         opacity: 1;
     }
+}
+
+#education-div p a {
+    text-decoration: none;
+    color : var(--h-color);
+}
+
+#passion-div h2 {
+    
 }

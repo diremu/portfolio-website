@@ -25,6 +25,7 @@ nav li:first-child {
     font-size: 1.8rem;
     font-weight: 750;
     flex-basis: 65%;
+    flex-wrap: none;
 }
 
 .selected {
@@ -46,7 +47,6 @@ nav ul a {
     transition-timing-function:step-start ;
     border-bottom: 2px solid #111000;
     border-radius: 7%;
-    font-weight: 600;
 }
 
 #top-nav a:visited {

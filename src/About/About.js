@@ -18,10 +18,14 @@ const About = () => {
         <div className="life-divs" id="passion-div">
             <div id="p-hdiv"><h2>Inspiration</h2></div>        
             <div>
-                <p>Since the 1990s, Website making and designing has become ever more of a big deal. To take part in such an industry and possibly contribute to it such that the entire community is appreciative of that effort is enough of a reason for me.</p>
+                <p>Since the 1990s, Website making and designing has become ever more of a big deal. To take part in such an industry and possibly contribute to it such that the entire community is appreciative of that effort is enough of a reason for me to venture into the career of Full-Stack Engineering.</p>
             </div>
         </div>
-        <div className="life-divs" id="learning-div"></div>
+        <div className="life-divs" id="learning-div">   
+            <h2>Milestones <br/><span> & Progress</span></h2>
+            <p>My milestones so far have been embarking on a 3-month internship with people from Graphic designers and Product desginers to Frontend and FullStack Engineers. This gave me the opportunity to enhance social skills as well as Real-time collaboration.</p>
+            <p>As of my stay in school,  I have improved upon my knowledge in CSS and React and begun my mission to truly become a Full-Stack Engineer. I have also learnt many concepts through the curriculum that will be helpful to my career.</p>
+        </div>
     </div>
     <Footer />
     </>

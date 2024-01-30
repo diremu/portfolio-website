@@ -16,8 +16,10 @@ const About = () => {
             </div>
         </div>
         <div className="life-divs" id="passion-div">
-            <h2>Inspiration</h2>
-            <div><p>bulala</p></div>
+            <div id="p-hdiv"><h2>Inspiration</h2></div>        
+            <div>
+                <p>Since the 1990s, Website making and designing has become ever more of a big deal. To take part in such an industry and possibly contribute to it such that the entire community is appreciative of that effort is enough of a reason for me.</p>
+            </div>
         </div>
         <div className="life-divs" id="learning-div"></div>
     </div>

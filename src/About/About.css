@@ -55,6 +55,43 @@
     color : var(--h-color);
 }
 
+#passion-div {
+    display: flex;
+    flex-direction:column;
+}
+
+#passion-div #p-hdiv {
+    align-self: flex-end;
+    text-align: right;
+    padding-left:  10%;
+    border-bottom: 1px solid var(--b-color);
+    animation-name: slide-right; 
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+}
+
 #passion-div h2 {
-    
+    border: none;
+    font-size: 1.8em;
+}
+
+@keyframes slide-right {
+    from {
+        opacity:0;
+        font-size: 1.1em;
+    }
+
+    50% {
+        font-size: 2.5em;
+    }
+
+    to {
+        opacity:1;
+        font-size: 1em;
+    }
+}
+
+#passion-div p {
+    text-align: right;
 }

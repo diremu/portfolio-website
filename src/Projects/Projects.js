@@ -4,7 +4,7 @@ import Navbar from '../components/Navbar/Navbar';
 const Projects = () => {
     return (<>
         <Navbar />
-        <h2>Hello Projects</h2>
+        <h2>Under Construction</h2>
     </>
     )
 }

@@ -13,6 +13,8 @@ export default function Home() {
                 <h2 id="home-div-heading">Intro</h2>
                 </div>
                 <div id="home-div-p">I am a Computer Science undergraduate and a Frontend engineer that has used many opportunities at my disposal to increase my skillset.</div>
+                {/*Insert image of me at Landmark here */}
+                {/* */}
             </div>
             <Footer />
         </>

@@ -1,12 +1,21 @@
-import './App.css';
-import Home from './Home/Home';
+import {BrowserRouter, Routes, Route} from 'react-router-dom';
+import Home from '../src/Home/Home';
+import About from '../src/About/About';
+import Contact from './Contact/Contact';
+import Projects from './Projects/Projects';
+
+// Install react-router-dom
 
 function App() {
   return (
-    <>
-    <Home />
-    </>
-  );
+  <BrowserRouter>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route  path="about" element={<About />} />
+      <Route path="projects" element={<Projects />} />
+      <Route path="contact" element={<Contact />} />
+    </Routes>
+  </BrowserRouter>);
 }
 
 export default App;

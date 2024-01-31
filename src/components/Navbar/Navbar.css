@@ -1,5 +1,5 @@
 * {
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
 }
 
 nav {
@@ -25,26 +25,37 @@ nav li:first-child {
     font-size: 1.8rem;
     font-weight: 750;
     flex-basis: 65%;
+    flex-wrap: none;
 }
 
 .selected {
     font-weight: 700;
-    border-bottom:1px solid #5c5c5c;
 }
 
 nav ul a {
     text-decoration: none;
-    color: white;
     border: none;
+    /* color: white; */
+    padding:10px 10px 0 10px;
 }
 
-a:hover {
-    color: #5c5c5c;
+#top-nav a:hover {
+    background-color:var(--h-color);
+    color: whitesmoke;
     transition-duration:.8s;
     transition-property:all;
     transition-timing-function:step-start ;
-    transition-delay:0ms ;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid #111000;
+    border-radius: 7%;
+}
+
+#top-nav a:visited {
+    color: black;
+}
+
+#top-nav a:visited:hover {
+    color: whitesmoke;
+    font-weight: 700;
 }
 
 nav ul li:last-child {

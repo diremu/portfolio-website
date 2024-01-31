@@ -14,19 +14,20 @@
 #home-div-heading {
     text-align: right;
     gap: 1rem;
-    color: #9c9c9c;
     font-size: 1.75em;
     margin:0;
     animation-name:heading;
     animation-duration: 1.5s;
     animation-iteration-count: 1;
     animation-direction: normal;
+    color: var(--h-color);
 }
 
 @keyframes heading {
     from {
         font-size: 0.1em;
-        margin-right: 100%
+        margin-right: 100%;
+        opacity:0;
     }
 
     to {

@@ -1,0 +1,105 @@
+:root {
+    --b-color: #5c5c5c;
+    --h-color : #1d1e75e5;
+}
+
+#about-div {
+    padding:0 1%;
+
+}
+
+.life-divs {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.life-divs p {
+    font-size: 1.4em
+}
+
+.life-divs h2 {
+    border-bottom: 1px solid var(--b-color);
+    width: -moz-fit-content;
+    width:fit-content;
+    padding-right: 5%;
+    color: var(--h-color);
+    flex-basis: 100%;
+    margin:0;
+}
+
+#education-div h2 {
+    animation:2s normal 1 slide-in;
+}
+
+#education-div p, #learning-div p {
+    text-align: left;
+    padding-left:.8%;
+}
+
+@keyframes slide-in {
+    from {
+        margin-left: 100%;
+        opacity: 0;
+    }
+    to {
+        margin-left: 0%;
+        opacity: 1;
+    }
+}
+
+#education-div p a {
+    text-decoration: none;
+    color : var(--h-color);
+}
+
+#passion-div {
+    display: flex;
+    flex-direction:column;
+}
+
+#passion-div #p-hdiv {
+    align-self: flex-end;
+    text-align: right;
+    padding-left:  5%;
+    border-bottom: 1px solid var(--b-color);
+    animation: 2s normal 1 slide-right;
+}
+
+#passion-div h2 {
+    border: none;
+    font-size: 1.8em;
+}
+
+@keyframes slide-right {
+    from {
+        opacity:0;
+        font-size: 1.1em;
+    }
+    50% {
+        font-size: 2.5em;
+    }
+    to {
+        opacity:1;
+        font-size: 1em;
+    }
+}
+
+#passion-div p {
+    text-align: right;
+}
+
+#learning-div h2 {
+    animation: 2s normal 1 fade-down;
+}
+/* Create an animation that slides down */
+@keyframes fade-down{
+    from {
+        margin-left: 100%;
+        opacity:0;
+    }
+    to {
+        opacity:1;
+        margin-left:0;
+    }
+}

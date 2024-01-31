@@ -11,8 +11,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   padding: 10px;
-  background-color: black;
-  color: white; 
+  overflow-x: none;
 }
 
 code {

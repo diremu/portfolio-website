@@ -28,8 +28,9 @@ nav li:first-child {
     flex-wrap: none;
 }
 
-.selected {
+li.active {
     font-weight: 700;
+    border-bottom: 4px solid var(--b-color);
 }
 
 nav ul a {
@@ -46,7 +47,7 @@ nav ul a {
     transition-property:all;
     transition-timing-function:step-start ;
     border-bottom: 2px solid #111000;
-    border-radius: 7%;
+    border-radius: 10%;
 }
 
 #top-nav a:visited {

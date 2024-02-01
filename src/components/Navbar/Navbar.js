@@ -1,15 +1,29 @@
 import './Navbar.css' 
 import Code from '../Images/code-solid.svg'
+import React, {useEffect, useState} from 'react'
 
 const Navbar = () => {
+    const [activeLink, setActiveLink] = useState(localStorage.getItem('activeLink') || 'home');
+    const handleLinkClick = link => setActiveLink(link);
+    useEffect(()=>{localStorage.setItem('activeLink',activeLink)},[activeLink])
     return(
         <nav id="top-nav">
             <ul>
-                <li><span id="nav-title">Diremu.</span> <img src={Code} alt=""  id="code-image"/></li>
-                <li className="selected"><a href="/">Home</a></li>
-                <li><a href="about">About</a></li>
-                <li><a href="projects">Projects</a></li>
-                <li><a href="contact">Contact</a></li>
+                <li>
+                    <span id="nav-title">Diremu.</span> <img src={Code} alt=""  id="code-image"/>
+                    </li>
+                <li className={activeLink === 'home' ? "active" : ""}>
+                    <a href="/" onClick={()=> handleLinkClick("home")}>Home</a>
+                    </li>
+                <li className={activeLink === 'about' ? "active" : ""}>
+                    <a href="about" onClick={()=> handleLinkClick("about")}>About</a>
+                    </li>
+                <li className={activeLink === 'projects' ? "active" : ""}>
+                    <a href="projects" onClick={()=> handleLinkClick("projects")}>Projects</a>
+                    </li>
+                <li className={activeLink === 'contact' ? "active" : ""}>
+                    <a href="contact" onClick={()=> handleLinkClick("contact")}>Contact</a>
+                    </li>
             </ul>
         </nav>
     )

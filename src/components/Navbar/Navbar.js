@@ -10,7 +10,7 @@ const Navbar = () => {
         <nav id="top-nav">
             <ul>
                 <li>
-                    <span id="nav-title">Diremu.</span> <img src={Code} alt=""  id="code-image"/>
+                    <span id="nav-title">Diremu.</span><img src={Code} alt=""  id="code-image"/>
                     </li>
                 <li className={activeLink === 'home' ? "active" : ""}>
                     <a href="/" onClick={()=> handleLinkClick("home")}>Home</a>

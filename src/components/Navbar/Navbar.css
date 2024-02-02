@@ -1,5 +1,5 @@
 * {
-    /* outline: 1px solid red; */
+    outline: 1px solid red;
 }
 
 nav {
@@ -25,12 +25,11 @@ nav li:first-child {
     font-size: 1.8rem;
     font-weight: 750;
     flex-basis: 65%;
-    flex-wrap: none;
 }
 
 li.active {
     font-weight: 700;
-    border-bottom: 4px solid var(--b-color);
+    border-bottom: 1px solid var(--b-color);
 }
 
 nav ul a {
@@ -43,11 +42,13 @@ nav ul a {
 #top-nav a:hover {
     background-color:var(--h-color);
     color: whitesmoke;
-    transition-duration:.8s;
-    transition-property:all;
-    transition-timing-function:step-start ;
     border-bottom: 2px solid #111000;
-    border-radius: 10%;
+    border-radius: 8%;
+}
+
+li.active>a:hover {
+    background-color: white; 
+    color: white;
 }
 
 #top-nav a:visited {

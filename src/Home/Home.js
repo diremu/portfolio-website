@@ -2,6 +2,7 @@ import Navbar from'../components/Navbar/Navbar';
 import Introduction from '../components/Introduction/Introduction';
 import Footer from '../components/Footer/Footer';
 import './Home.css'
+import Background  from './media/background.mp4'
 
 export default function Home() {
     return (
@@ -9,6 +10,9 @@ export default function Home() {
             <Navbar />
             <Introduction />
             <div id="home-div">
+                {/* <video autoplay muted loop id="myVideo">
+                    <source src={Background} type="video/mp4" />
+                </video> */}
                 <div id="home-div-hdiv">
                 <h2 id="home-div-heading">Intro</h2>
                 </div>

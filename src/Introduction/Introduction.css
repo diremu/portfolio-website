@@ -1,0 +1,34 @@
+#introduction {
+    padding: 5%;
+}
+
+div>p {
+    font-size: 2.3rem;
+    font-weight: 700;
+    padding: 0 5%;
+    text-align: center;
+    text-wrap:wrap;
+}
+
+#explore-link {
+    text-align: center;
+    padding: 20px;
+}
+
+#explore-link a {
+    padding: 15px;
+    text-decoration: none;
+    border-top: 3px solid white;
+    border-bottom: 3px solid white;
+}
+
+#explore-link a:hover {
+    background-color: #cacaca4d;
+    transition: background-color .8s;
+}
+
+#intro-nav {
+    margin:0;
+    padding:0;
+    display:flex;
+}

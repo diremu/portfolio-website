@@ -13,7 +13,7 @@ const Navbar = () => {
                     <span id="nav-title">Diremu.</span><img src={Code} alt=""  id="code-image"/>
                     </li>
                 <li className={activeLink === 'home' ? "active" : ""}>
-                    <a href="/" onClick={()=> handleLinkClick("home")}>Home</a>
+                    <a href="home" onClick={()=> handleLinkClick("home")}>Home</a>
                     </li>
                 <li className={activeLink === 'about' ? "active" : ""}>
                     <a href="about" onClick={()=> handleLinkClick("about")}>About</a>

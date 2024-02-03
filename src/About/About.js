@@ -44,10 +44,10 @@ const About = () => {
             <h2 id="learning-divh">Milestones <br/><span> & Progress</span></h2>
             {/* Milestones should be in the form of a list not a paragraph */}
             <p>My milestones so far have been:
-                <ul id="experience-list">
+                <ol id="experience-list">
                     <li>Embarking on a 3-month internship with people from Graphic designers and Product desginers to Frontend and FullStack Engineers. This gave me the opportunity to enhance social skills as well as Real-time collaboration.</li>
                     <li>Using the languages and technologies at my disposal on Projects that are comparable to real world applications.</li>
-                </ul></p>
+                </ol></p>
             <p>As of my stay in school,  I have improved upon my knowledge in CSS and React and begun my mission to truly become a Full-Stack Engineer. I have also learnt many concepts through the curriculum that will be helpful to my career.</p>
         </div>
     </div>

@@ -1,12 +1,12 @@
 * {
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
 }
 
 nav {
     font-size: 1.1em;
 }
 
-nav ul {
+#top-nav ul {
     display: flex;
     gap: 1.4rem;
     margin: none;

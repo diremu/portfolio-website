@@ -1,5 +1,6 @@
 #introduction {
     padding: 5%;
+    color: white;
 }
 
 div>p {
@@ -20,6 +21,8 @@ div>p {
     text-decoration: none;
     border-top: 3px solid white;
     border-bottom: 3px solid white;
+    color: white;
+    font-size: 1.5rem;
 }
 
 #explore-link a:hover {
@@ -31,4 +34,17 @@ div>p {
     margin:0;
     padding:0;
     display:flex;
+}
+#intro-nav li {
+    color: white;
+}
+#intro-nav-title {
+    color: white;
+}
+#intro-nav-title:visited {
+    color: white;
+}
+#intro-nav-title:hover {
+    color: #c5bfbf8c;
+    transition: color 0.9s;
 }

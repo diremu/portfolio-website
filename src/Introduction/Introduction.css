@@ -23,6 +23,7 @@ div>p {
     border-bottom: 3px solid white;
     color: white;
     font-size: 1.5rem;
+    border-radius: 15%;
 }
 
 #explore-link a:hover {

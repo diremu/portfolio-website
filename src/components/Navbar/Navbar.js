@@ -3,9 +3,9 @@ import Code from '../Images/code-solid.svg'
 import React, {useEffect, useState} from 'react'
 
 const Navbar = () => {
-    const [activeLink, setActiveLink] = useState(localStorage.getItem('activeLink') || 'home');
+    const [activeLink, setActiveLink] = useState(sessionStorage.getItem('activeLink') || 'home');
     const handleLinkClick = link => setActiveLink(link);
-    useEffect(()=>{localStorage.setItem('activeLink',activeLink)},[activeLink])
+    useEffect(()=>{sessionStorage.setItem('activeLink',activeLink)},[activeLink])
     return(
         <nav id="top-nav">
             <ul>

@@ -1,9 +1,13 @@
 * {
-    /* outline: 1px solid red; */
+    /* outline: 1px solid red;   */
 }
 
 nav {
     font-size: 1.1em;
+}
+
+#top-nav {
+    background: linear-gradient(180deg, #ffffff, #acacac81);
 }
 
 #top-nav ul {
@@ -13,7 +17,6 @@ nav {
     flex-wrap: nowrap;
     justify-content:center;
     align-items: flex-end;
-    padding:0;
     border-bottom: 1.5px solid #5c5c5c;
 }
 
@@ -25,6 +28,10 @@ nav li:first-child {
     font-size: 1.8rem;
     font-weight: 750;
     flex-basis: 65%;
+}
+
+nav li:first-child a {
+    padding:0;
 }
 
 li.active {
@@ -71,4 +78,10 @@ nav ul li:last-child {
 
 #nav-title {
     color: #1d1e75e5;
+}
+
+#top-nav li:first-child a:hover {
+    background-color: transparent;
+    color: black;
+    border-bottom: none;
 }

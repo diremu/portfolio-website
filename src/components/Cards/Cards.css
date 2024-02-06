@@ -2,14 +2,17 @@
     font-family: 'Quicksand';
     src: local('Quicksand'), url(../../fonts/Quicksand-VariableFont_wght.ttf) format(woff);
 }
+.hidden {
+    display: none;
+    overflow: hidden;
+}
 
 #cards-container {
     text-align: center;
     display: flex;
     justify-content: space-around;
     padding: 10px;
-    height: 75vh;
-    max-height: 600px;
+    min-height: 90vh;
     position: relative;
 }
 
@@ -21,10 +24,14 @@
     color: black;
     padding: 1.6%;
     cursor: pointer;
+    transition: 1.2s;
+    max-height: 80vh;
+    width: 15vw
 }
 
 .cards:hover {
-    box-shadow: 180deg 1px  2px inset;
+    box-shadow:0 5px 8px black;
+    transition: box-shadow 0.8s; 
 }
 
 #popped {
@@ -36,4 +43,10 @@
 
 #cards-container button {
     font-family:Quicksand ;
+}
+
+.enlarged{
+    content:"Hello there";
+    width: 50vw;
+    
 }

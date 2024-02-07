@@ -5,19 +5,19 @@
 
 #about-div {
     padding:0 1%;
-
+    overflow: hidden;
 }
 
 .animated-section {
     opacity: 0;
     transform: translateY(20px);
     transition: opacity 0.8s, transform 0.8s;
-  }
+}
   
-  .animated-section.visible {
+.animated-section.visible {
     opacity: 1;
     transform: translateY(0);
-  }
+}
   
 
 .life-divs {
@@ -27,6 +27,7 @@
 }
 
 .life-divs p {
+    gap: 20rem;
     font-size: 1.4em
 }
 
@@ -115,3 +116,17 @@
         margin-left:0;
     }
 }
+
+#experience-list li {
+    margin-bottom: 30px;
+}
+
+#experience-list {
+    list-style-type:circle;
+}
+
+/* #learning-divh {
+    display: inline-block;
+    transform: translateY(-100%);
+    transition: transform 0.5s ease-in-out;
+} */

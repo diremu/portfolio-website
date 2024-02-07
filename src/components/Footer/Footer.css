@@ -1,8 +1,8 @@
 .footer-container {
     border-top: 5px solid var(--b-color);
     display: flex;
-    flex-direction:column;
     align-items: center;
+    padding: 10px;
 }
 
 .footer-container p {
@@ -10,29 +10,20 @@
     text-align: left;
 }
 
-.footer-nav ul {
-    display: flex;
-    flex-direction: row;
+#contact-btn, #contact-btn:visited {
+    text-decoration: none;
+    font-size: 1.4rem;
+    background-color: black;
+    padding: 10px;
+    border-radius: 25px;
+    color: white;
+    transition-property: background-color color;
+    transition-duration: 1.2s;
 }
 
-.footer-nav li {
-    display: flex;
-    gap: 3rem;
-    list-style : none;
-}
-
-.social-handle {
-    max-width: 60px;
-    width: 60px;
-    height:auto;
-    padding:0;
-    margin:0;
-}
-
-.footer-nav a  {
-    padding:0;
-}
-
-.footer-nav a:hover {
-    border-bottom: none;
+#contact-btn:hover {
+    background-color:#1b1b1b75;
+    color: #330606;
+    transition-property: background-color color;
+    transition-duration:1.2s; 
 }

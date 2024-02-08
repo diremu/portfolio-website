@@ -3,10 +3,6 @@
     src: local('Quicksand'), url(../../fonts/Quicksand-VariableFont_wght.ttf) format(woff);
 }
 
-* {
-    outline: 1px solid red
-}
-
 .hidden {
     display: none;
     overflow: hidden;
@@ -31,10 +27,10 @@
     padding: 1.6%;
     cursor: pointer;
     transition: 1.2s;
-    max-height: 80vh;
     width: 15vw;
     min-width: 150px;
     box-shadow: 0 3px 5px black;
+    height: auto;
 }
 
 .cards:hover {
@@ -62,10 +58,19 @@
 }
 
 .enlarged h1 {
-    text-align: left;
+    text-align: center;
 }
 
 .content {
     text-align: right;
-    font-size: 1.4rem;
+}
+
+.content p {
+    font-size: 1.25rem;
+}
+
+.life-divs {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
 }

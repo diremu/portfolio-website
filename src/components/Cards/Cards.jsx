@@ -1,36 +1,18 @@
 import './Cards.css'
 import React, {useState} from 'react';
 
-export default function Cards() {
+export default function Cards(props) {
     let [expand, setExpanded] = useState("");
     return (
-        <>
         <div id="cards-container">
-            <button type="button" onMouseEnter={() => {setExpanded("first-card")}} onMouseLeave={() => {setExpanded("")}}  className={`cards ${expand === "first-card" ? "enlarged" : ""}`}>
-                <div id="first-card">
-                <h1 className="card-headings">Education</h1>
-                <div className={` ${expand === "first-card" ? "content" : "hidden"}`} >
-                    My education sbeeisjf sjhjsbhf sefk srh sheshbd haoweh.
+            <div>
+                <div id={props.id} onMouseEnter={() => {setExpanded(props.id)}} onMouseLeave={() => {setExpanded("")}} className={`cards ${expand === props.id ? "enlarged" : ""} ${props.className}`}>
+                <h1 className="card-headings">{props.heading}</h1>
+                <div className={` ${expand === props.id ? "content" : "hidden"}`} >
+                    {props.content}
                 </div>
             </div>
-            </button>
-            <button type="button" onMouseEnter={() => {setExpanded("second-card")}} onMouseLeave={() => {setExpanded("")}}  className={`cards ${expand === "second-card" ? "enlarged" : ""}`}>
-                <div id="second-card">
-                <h1 className="card-headings">Education</h1>
-                <div className={`${expand === "second-card" ? "content" : "hidden"}`} >
-                    My education sbeeisjf sjhjsbhf sefk srh sheshbd haoweh.
-                </div>
             </div>
-            </button>
-            <button type="button" onMouseEnter={() => {setExpanded("third-card")}} onMouseLeave={() => {setExpanded("")}}  className={`cards ${expand === "third-card" ? "enlarged" : ""}`}>
-                <div id="third-card">
-                <h1 className="card-headings">Education</h1>
-                <div className={` ${expand === "third-card" ? "content" : "hidden"}`} >
-                    My education sbeeisjf sjhjsbhf sefk srh sheshbd haoweh.
-                </div>
-            </div>
-            </button>
         </div>
-        </>
     )
 }

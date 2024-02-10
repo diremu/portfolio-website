@@ -3,11 +3,6 @@
     --h-color : #1d1e75e5;
 }
 
-#about-div {
-    padding:0 1%;
-    overflow: hidden;
-}
-
 .animated-section {
     opacity: 0;
     transform: translateY(20px);
@@ -124,9 +119,30 @@
 #experience-list {
     list-style-type:circle;
 }
-
-/* #learning-divh {
+/* 
+#learning-divh {
     display: inline-block;
     transform: translateY(-100%);
     transition: transform 0.5s ease-in-out;
 } */
+
+#cards-container .cards{
+    min-height: 60vh;
+    height: auto;
+}
+
+#cards-container .cards a {
+    text-decoration:  none;
+    color: rgb(92, 199, 92);
+}
+#cards-container .cards p {
+    text-align: left;
+}
+
+#cards-container .cards a:visited {
+    color:green;
+}
+
+#cards-container .cards:first-of-type{
+    background-image: url('../components/Images/Stacked\ Books\ PNG\ Images\,\ \ Hand\ Painted\,\ Book\,\ Book\ PNG\ Transparent\ Background\ -\ Pngtree.jpeg');  
+}

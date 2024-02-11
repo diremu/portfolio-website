@@ -7,7 +7,7 @@ const Navbar = () => {
     const handleLinkClick = link => setActiveLink(link);
     useEffect(()=>{sessionStorage.setItem('activeLink',activeLink)},[activeLink])
     return(
-        <nav id="top-nav">
+        <nav id="top-nav" className="hey">
             <ul>
                 <li>
                     <a href="/" id="nav-title">Diremu.</a><img src={Code} alt=""  id="code-image"/>
@@ -24,6 +24,7 @@ const Navbar = () => {
                 <li className={activeLink === 'contact' ? "active" : ""}>
                     <a href="contact" onClick={()=> handleLinkClick("contact")}>Contact</a>
                     </li>
+                {/* <a href={`javascript:void(0)`} className='icon' onClick={myFunction()}>&#9776;</a> */}
             </ul>
         </nav>
     )

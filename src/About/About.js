@@ -6,8 +6,7 @@ import { useInView } from 'react-intersection-observer';
 import Cards from '../components/Cards/Cards';
 
 const About = () => {
-    let title = Document.title
-    title = "About | Diremu"
+    document.title = "About | Diremu";
     const [ref, inView] = useInView({triggerOnce: true,})
     // document.addEventListener('DOMContentLoaded',function () {
     //     const textElement = document.getElementById('learning-divh')

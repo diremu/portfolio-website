@@ -9,6 +9,7 @@ nav {
 #top-nav {
     /* background: linear-gradient(180deg, #ffffff, #acacac81); */
     background-color: transparent;
+    overflow: hidden;
 }
 
 #top-nav ul {
@@ -19,6 +20,11 @@ nav {
     justify-content:center;
     align-items: flex-end;
     border-bottom: 1.5px solid #5c5c5c;
+}
+
+#top-nav a {
+    float:left;
+    display: block;
 }
 
 nav li {
@@ -51,9 +57,34 @@ nav ul a {
     background-color:var(--h-color);
     color: whitesmoke;
     border-bottom: 2px solid #111000;
-    border-radius: 8%;
+    border-top-left-radius: 8px;
+    border-bottom-right-radius: 8px;
 }
 
+#top-nav .icon {
+    display:none;
+}
+
+@media screen and (max-width: 600px) {
+    #top-nav a:not(:first-child) {display: none;}
+    #top-nav a.icon {
+      float: right;
+      display: block;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #top-nav.responsive a.icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    #top-nav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+  }
 li.active>a:hover {
     background-color: white; 
     color: white;

@@ -26,7 +26,7 @@
     color: black;
     padding: 1.6%;
     cursor: pointer;
-    transition: 1.2s;
+    /* transition: 1.2s; */
     width: 15vw;
     min-width: 150px;
     box-shadow: 0 3px 5px black;
@@ -53,7 +53,7 @@
     width: 50vw;
     max-width: 600px;
     min-width: 200px;
-    transition: width 1.2s;
+    /* transition: width 1.2s; */
     max-height: 80vh;
 }
 
@@ -73,4 +73,23 @@
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
+}
+
+@media screen and (max-width:600px) {
+    #cards-container {
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-content: center;
+        gap: 3rem;
+    }
+    .cards {
+        padding: 2.5vw;
+        flex-grow: 1;
+        /* overflow-y:scroll; */
+        overflow-x: hidden;
+    }
+    .enlarged {
+        height: fit-content;
+        overflow-wrap: break-word;
+    }
 }

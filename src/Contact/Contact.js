@@ -5,6 +5,7 @@ import Gmail from '../components/Images/gmail.png';
 import Twitter from '../components/Images/twitter.png'
 
 export default function Contact() {
+    document.title = "Contact | Portfolio";
     return(
     <>
         <Navbar />

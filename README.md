@@ -23,3 +23,4 @@ All Contributions such as Feedbacks, Issues, Ideas and Compliments should go the
 - Add border-radius to the explore button ..
 - Place an arrow in the explore button and add a hover animation
 - Replace footer with button that leads to Contact page ..
+- Design the mobile and tablet sites as well

@@ -6,18 +6,18 @@ import { useInView } from 'react-intersection-observer';
 import Cards from '../components/Cards/Cards';
 
 const About = () => {
+    document.title = "About | Diremu";
     const [ref, inView] = useInView({triggerOnce: true,})
     // document.addEventListener('DOMContentLoaded',function () {
     //     const textElement = document.getElementById('learning-divh')
-    //     // const textContent = textElement.trim('')
-    //     // const letters = textContent.split('')
-    //     let letters = textElement.trim('').split('')
+    //     const textContent = textElement.trim('')
+    //     const letters = textContent.split('')
 
     //     textElement.textContent = '';
     //     letters.forEach((letter, index) => {
     //         const span = document.createElement('span');
     //         span.textContent = letter;
-    //         span.style.transitionDelay = `${index * 50}ms`; // Adjust the delay as needed
+    //         span.style.transitionDelay = `${index * 80}ms`; // Adjust the delay as needed
     //         textElement.appendChild(span)
     //     })
     //     setTimeout(() => {
@@ -26,9 +26,10 @@ const About = () => {
     return(
     <>
     <Navbar />
+    <div id="cards-container">
     <Cards id="first-card" heading="Education" content={
         <>
-        <p>I started my primary education in the <a href="https://smschools.com" target="_blank" rel="noreferrer">Stella Maris School</a> located in Abuja, Nigeria. I finished my primary education at Primary 5 in the Early Beginners School. I went on to spend 6 years in the boarding school <a href="https://bhsa.org" target="_blank" rel="noreferrer" >Baptist High School</a>, Abuja.</p>
+        <p id="learning-divh">I started my primary education in the <a href="https://smsabuja.com" target="_blank" rel="noreferrer">Stella Maris School</a> located in Abuja, Nigeria. I finished my primary education at Primary 5 in the Early Beginners School. I went on to spend 6 years in the boarding school <a href="https://bhsa.org" target="_blank" rel="noreferrer" >Baptist High School</a>, Abuja.</p>
                 {/* Add links to the school names */ }
                 <p>Afterwards, I then went on to pursue a Bachelor's Degree in Computer Science in <a href="https://lmu.edu.ng" target="_blank" rel="noreferrer">Landmark University</a>, Kwara State, Nigeria. In this environment, I have had the opportunity to begin a path up the career of Full-Stack Engineering.</p>
     </>
@@ -48,6 +49,8 @@ const About = () => {
             <p>As of my stay in school,  I have improved upon my knowledge in CSS and React and begun my mission to truly become a Full-Stack Engineer. I have also learnt many concepts through the curriculum that will be helpful to my career.</p>
         </>
     } className="life-divs"  />
+    </div>
+    
     <Footer />
     </>
 )

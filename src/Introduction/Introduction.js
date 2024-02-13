@@ -9,7 +9,7 @@ function Introduction() {
         <div id="introduction">
             <p>"Welcome to a visual journey where creativity meets craftsmanship, showcasing a portfolio that transcends boundaries and brings ideas to life with passion and precision."</p>
             <div id="explore-link">
-                <a href="home">Explore</a>
+                <a href="home">Explore <span id="arrow">&rarr;</span></a>
             </div>
             <div id="home-div">
                 <div class="video-wrapper">

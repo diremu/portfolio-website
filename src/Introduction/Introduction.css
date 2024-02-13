@@ -49,3 +49,19 @@ div>p {
     color: #c5bfbf8c;
     transition: color 0.9s;
 }
+#arrow {
+    color: white;
+}
+
+#arrow:hover {
+    animation: 2s normal 1 hover-right
+}
+
+@keyframes hover-right {
+    0% {
+        transform: translateX(0px);
+    }
+    100% {
+        transform : translateX(8px);
+    }
+}

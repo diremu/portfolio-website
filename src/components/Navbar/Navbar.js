@@ -5,7 +5,22 @@ import React, {useEffect, useState} from 'react'
 const Navbar = () => {
     const [activeLink, setActiveLink] = useState(sessionStorage.getItem('activeLink') || 'home');
     const handleLinkClick = link => setActiveLink(link);
-    useEffect(()=>{sessionStorage.setItem('activeLink',activeLink)},[activeLink])
+    useEffect(()=>{sessionStorage.setItem('activeLink',activeLink)},[activeLink]);
+    const [shrink, setHandleShrink] = useState();
+    setHandleShrink(mobileView())
+    // still not too sure about this
+    // function mobileView () {
+    //     window.addEventListener("resize", factChecker() )
+    //     function factChecker() {
+    //         if (window.innerWidth < 600) {
+    //             let navbar= document.getElementById("top=nav")
+    //             navbar.classList[-1] += "shortened"
+    //         } else if (window.innerWidth < 800){
+    //             let navbar = document.getElementById("top-nav")
+    //             navbar.classList[-1] += "short"
+    //         }
+    //     }
+    // }
     return(
         <nav id="top-nav" className="hey">
             <ul>

@@ -31,6 +31,7 @@ div>p {
     transition: background-color .8s;
 }
 
+
 #intro-nav {
     margin:0;
     padding:0;
@@ -52,16 +53,17 @@ div>p {
 #arrow {
     color: white;
 }
-
-#arrow:hover {
-    animation: 2s normal 1 hover-right
+#explore-link a:hover #arrow {
+    animation: 2s normal 1 hover-right;
 }
-
+/* Still experimenting on the hover effect here*/
+/* 
 @keyframes hover-right {
     0% {
-        transform: translateX(0px);
+        color: black;
+
     }
     100% {
-        transform : translateX(8px);
+        color: white;
     }
-}
+} */

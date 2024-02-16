@@ -7,8 +7,18 @@ const Navbar = () => {
     const handleLinkClick = link => setActiveLink(link);
     useEffect(()=>{sessionStorage.setItem('activeLink',activeLink)},[activeLink]);
     // I now know what to do
+    const [shrunk, setShrunk] = useState("")
+    window.addEventListener("resize", () => {
+        if (window.innerWidth < 600) {
+            setShrunk("mobile")
+        } else if (window.innerWidth < 800) {
+            setShrunk("tablet")
+        } else {
+            setShrunk("normal")
+        }
+    })
     return(
-        <nav id="top-nav" className="hey">
+        <nav id={`${shrunk === "tablet" ? "tablet" : shrunk === "mobile" ? "mobile" : "top-nav"}`} className={`hey ${shrunk === "mobile" ? "mobile" : ""} `}>
             <ul>
                 <li>
                     <a href="/" id="nav-title">Diremu.</a><img src={Code} alt=""  id="code-image"/>
@@ -25,7 +35,7 @@ const Navbar = () => {
                 <li className={activeLink === 'contact' ? "active" : ""}>
                     <a href="contact" onClick={()=> handleLinkClick("contact")}>Contact</a>
                     </li>
-                {/* <a href={`javascript:void(0)`} className='icon' onClick={myFunction()}>&#9776;</a> */}
+                <a href={`javascript:void(0)`} className={`${(shrunk === "tablet" || shrunk === "mobile") ? "visible" : "hidden" }`}>&#9776;</a>                
             </ul>
         </nav>
     )

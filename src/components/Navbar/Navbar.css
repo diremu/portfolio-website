@@ -117,3 +117,15 @@ nav ul li:last-child {
     color: black;
     border-bottom: none;
 }
+
+#tablet {
+    font-size: 1.89rem; 
+}
+
+#tablet a:visited {
+    color: black;
+}
+
+.mobile {
+    color: orange;
+}

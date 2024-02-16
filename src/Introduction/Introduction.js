@@ -3,15 +3,6 @@ import background from './media/background.mp4';
 import Code from '../components/Images/code-solid.svg';
 
 function Introduction() {
-    window.addEventListener("resize", () => {
-        if (window.innerWidth < 600) {
-            console.log("Hey there")
-        } else if (window.innerWidth < 800) {
-            console.log("I see you big man")
-        } else {
-            console.log("Wagwan gee")
-        }
-    })
     return (
         <>
             <div><nav id="intro-nav"><ul><li><a href="home"  id="intro-nav-title">Diremu.</a><img src={Code} alt=""  id="code-image"/></li></ul></nav></div>

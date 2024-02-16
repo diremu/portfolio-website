@@ -16,6 +16,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   padding: 10px;
   overflow-x: none;
+  min-width: 400px !important;
 }
 
 code {

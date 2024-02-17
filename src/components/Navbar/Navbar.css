@@ -20,6 +20,7 @@ nav {
     justify-content:center;
     align-items: flex-end;
     border-bottom: 1.5px solid #5c5c5c;
+    font-size: 23px;
 }
 
 #top-nav a {
@@ -119,7 +120,16 @@ nav ul li:last-child {
 }
 
 #tablet {
-    font-size: 1.89rem; 
+    font-size: 3.1vw;
+    border-bottom: 3px solid var(--b-color);
+}
+
+#tablet ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
 }
 
 #tablet a:visited {
@@ -127,5 +137,22 @@ nav ul li:last-child {
 }
 
 .mobile {
-    color: orange;
+    font-size: 20px;
+    border-bottom: 3px solid var(--b-color)
+}
+
+.mobile>ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.mobile>ul:first-child{
+    width: 80%;
+}
+
+.mobile a:visited{
+    color: black;
 }

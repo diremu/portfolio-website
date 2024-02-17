@@ -35,7 +35,7 @@ const Navbar = () => {
                 <li className={activeLink === 'contact' ? "active" : ""}>
                     <a href="contact" onClick={()=> handleLinkClick("contact")}>Contact</a>
                     </li>
-                <a href={`javascript:void(0)`} className={`${(shrunk === "tablet" || shrunk === "mobile") ? "visible" : "hidden" }`}>&#9776;</a>                
+                {/* <a href={`javascript:void(0)`} className={`${(shrunk === "tablet" || shrunk === "mobile") ? "visible" : "hidden" }`}>&#9776;</a>                 */}
             </ul>
         </nav>
     )

@@ -7,20 +7,18 @@ export default function Home() {
     const [ref, inView] = useInView({triggerOnce: true,})
     document.addEventListener('DOMContentLoaded',function () {
         const textElement = document.getElementById('home-head')
-        const textContent = textElement.innerText
-        const letters = textContent.split('')
-
+        const textBody = textElement.textContent.trim()
+        const letters = textBody.split("")
         textElement.textContent = '';
         letters.forEach((letter, index) => {
             const span = document.createElement('span');
             span.textContent = letter;
-            span.className = "";
             span.style.transitionDelay = `${index * 120}ms`;
             textElement.appendChild(span)
         })
         setTimeout(() => {
             textElement.style.transform = 'translateY(0%)';
-          }, 2)})
+          }, 0)})
     return (
         <>
             <Navbar />

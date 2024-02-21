@@ -1,5 +1,5 @@
 * {
-    /* outline: 1px solid red;   */
+    outline: 1px solid red;  
 }
 
 nav {
@@ -124,12 +124,31 @@ nav ul li:last-child {
     border-bottom: 3px solid var(--b-color);
 }
 
+#tablet ul li {
+    display: none;
+    position: absolute;
+    overflow: hidden;
+}
+
+#tablet ul li:first-child {
+    display:inline;
+    position: relative;
+    font-size: 4.25vw;
+    padding-top: 1.95%;
+}
+
+#tablet ul:first-child {
+    display: flex;
+    flex-direction: row;
+}
+
 #tablet ul {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     gap: 2rem;
+    margin-bottom: 0;
 }
 
 #tablet a:visited {
@@ -155,4 +174,21 @@ nav ul li:last-child {
 
 .mobile a:visited{
     color: black;
+}
+
+.hidden {
+    position:absolute;
+    display: none;
+    overflow: hidden;
+}
+
+.visibleNav {
+    width: 16px;
+    height: auto;
+    font-size: 1.4em;
+    color: black;
+    border: 1.5px solid black;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
 }

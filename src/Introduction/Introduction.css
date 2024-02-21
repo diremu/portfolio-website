@@ -24,6 +24,7 @@ div>p {
     color: white;
     font-size: 1.5rem;
     border-radius: 10px;
+    transition: background-color .8s;
 }
 
 #explore-link a:hover {

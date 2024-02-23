@@ -1,6 +1,9 @@
 import './Home.css'
 import Navbar from '../components/Navbar/Navbar';
 import { useInView } from 'react-intersection-observer'; 
+import About from '../About/About';
+import Contact from '../Contact/Contact';
+import Projects from '../Projects/Projects';
 
 export default function Home() {
     document.title = "Home | Diremu";
@@ -20,9 +23,12 @@ export default function Home() {
             textElement.style.transform = 'translateY(0%)';
           }, 0)})
     return (
-        <>
+        <div id="home">
             <Navbar />
-            <h2 id="home-head" className={`${inView ? "visible" : "hidden"}`} ref={ref}>Under Construction</h2>      
-        </>
+            <h2 id="home-head" className={`${inView ? "visible" : "hidden"}`} ref={ref}>Under Construction</h2>
+            <About />
+            <Projects />
+            <Contact />
+        </div>
     )
 }

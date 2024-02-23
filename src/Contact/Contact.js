@@ -5,10 +5,8 @@ import Gmail from '../components/Images/gmail.png';
 import Twitter from '../components/Images/twitter.png'
 
 export default function Contact() {
-    document.title = "Contact | Portfolio";
     return(
-    <>
-        <Navbar />
+    <div id="contact">
         <div id="contact-div">
             <p id="contact-p">
                 If you wish to inquire me for my skills or my professional advice, you may contact me through the following handles:
@@ -21,7 +19,7 @@ export default function Contact() {
                 </ul>
             </nav>
         </div>    
-    </>)
+    </div>)
 }
 
 // For this write if you wish to inquire me for my skills or professional advice, contact me through the following handles.

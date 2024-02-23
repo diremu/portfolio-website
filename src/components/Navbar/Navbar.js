@@ -40,16 +40,16 @@ const Navbar = () => {
                     <a href="/" id="nav-title">Diremu.</a><img src={Code} alt=""  id="code-image"/>
                     </li>
                 <li className={activeLink === 'home' ? "active" : ""}>
-                    <a href="home" onClick={()=> handleLinkClick("home")}>Home</a>
+                    <a href="#home" onClick={()=> handleLinkClick("home")}>Home</a>
                     </li>
                 <li className={activeLink === 'about' ? "active" : ""}>
-                    <a href="about" onClick={()=> handleLinkClick("about")}>About</a>
+                    <a href="#about" onClick={()=> handleLinkClick("about")}>About</a>
                     </li>
                 <li className={activeLink === 'projects' ? "active" : ""}>
-                    <a href="projects" onClick={()=> handleLinkClick("projects")}>Projects</a>
+                    <a href="#projects" onClick={()=> handleLinkClick("projects")}>Projects</a>
                     </li>
                 <li className={activeLink === 'contact' ? "active" : ""}>
-                    <a href="contact" onClick={()=> handleLinkClick("contact")}>Contact</a>
+                    <a href="#contact" onClick={()=> handleLinkClick("contact")}>Contact</a>
                     </li>
                 <a href={`javascript:void(0)`} className={`${(shrunk === "tablet" || shrunk === "mobile") ? "visibleNav" : "hidden" }`} onClick={dropdownMenu} >&#9776;</a>                
             </ul>

@@ -1,14 +1,12 @@
 import  './About.css';
 import Navbar from '../components/Navbar/Navbar';
-import Footer from '../components/Footer/Footer';
+// import Footer from '../components/Footer/Footer';
 import React from 'react';
 import Cards from '../components/Cards/Cards';
 
 const About = () => {
-    document.title = "About | Diremu";
     return(
-    <>
-    <Navbar />
+    <div id="about">
     <div id="cards-container">
     <Cards id="first-card" heading="Education" content={
         <>
@@ -33,9 +31,7 @@ const About = () => {
         </>
     } className="life-divs"  />
     </div>
-    
-    <Footer />
-    </>
+    </div>
 )
 }
 

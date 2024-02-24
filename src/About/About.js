@@ -1,31 +1,12 @@
 import  './About.css';
 import Navbar from '../components/Navbar/Navbar';
-import Footer from '../components/Footer/Footer';
+// import Footer from '../components/Footer/Footer';
 import React from 'react';
-import { useInView } from 'react-intersection-observer';
 import Cards from '../components/Cards/Cards';
 
 const About = () => {
-    document.title = "About | Diremu";
-    const [ref, inView] = useInView({triggerOnce: true,})
-    // document.addEventListener('DOMContentLoaded',function () {
-    //     const textElement = document.getElementById('learning-divh')
-    //     const textContent = textElement.trim('')
-    //     const letters = textContent.split('')
-
-    //     textElement.textContent = '';
-    //     letters.forEach((letter, index) => {
-    //         const span = document.createElement('span');
-    //         span.textContent = letter;
-    //         span.style.transitionDelay = `${index * 80}ms`; // Adjust the delay as needed
-    //         textElement.appendChild(span)
-    //     })
-    //     setTimeout(() => {
-    //         textElement.style.transform = 'translateY(0)';
-    //       }, 0)})
     return(
-    <>
-    <Navbar />
+    <div id="about">
     <div id="cards-container">
     <Cards id="first-card" heading="Education" content={
         <>
@@ -50,9 +31,7 @@ const About = () => {
         </>
     } className="life-divs"  />
     </div>
-    
-    <Footer />
-    </>
+    </div>
 )
 }
 

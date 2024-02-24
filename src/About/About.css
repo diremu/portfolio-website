@@ -119,12 +119,6 @@
 #experience-list {
     list-style-type:circle;
 }
-/* 
-#learning-divh {
-    display: inline-block;
-    transform: translateY(-100%);
-    transition: transform 0.5s ease-in-out;
-} */
 
 #cards-container .cards{
     min-height: 60vh;

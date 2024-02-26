@@ -192,3 +192,9 @@ nav ul li:last-child {
     display: flex;
     justify-content: center;
 }
+
+.dropdown {
+    display: flex;
+    flex-direction: column;
+    color: green;
+}

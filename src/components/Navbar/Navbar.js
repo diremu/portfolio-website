@@ -2,11 +2,16 @@ import './Navbar.css'
 import Code from '../Images/code-solid.svg'
 import React, {useEffect, useState} from 'react'
 
-function dropdownMenu() {
+function DropdownMenu() {
     // should have a toggle state
     // should also create a div that dropdowns when the toggle part is on
     // consists of mini-links that still use react-router
-    return console.log("Hello there")
+
+    return (
+        <>
+
+        </>
+    )
 }
 
 const Navbar = () => {
@@ -33,6 +38,7 @@ const Navbar = () => {
             setShrunk("normal")
         }
     })
+    const [dropdown, setDropdown] = useState(false);
     return(
         <nav id={`${shrunk === "tablet" ? "tablet" : shrunk === "mobile" ? "mobile" : "top-nav"}`} className={`hey ${shrunk === "mobile" ? "mobile" : ""} `}>
             <ul>
@@ -51,7 +57,16 @@ const Navbar = () => {
                 <li className={activeLink === 'contact' ? "active" : ""}>
                     <a href="#contact" onClick={()=> handleLinkClick("contact")}>Contact</a>
                     </li>
-                <a href={`javascript:void(0)`} className={`${(shrunk === "tablet" || shrunk === "mobile") ? "visibleNav" : "hidden" }`} onClick={dropdownMenu} >&#9776;</a>                
+                <a href={`javascript:void(0)`} className={`${(shrunk === "tablet" || shrunk === "mobile") ? "visibleNav" : "hidden" }`} onClick={() => {setDropdown(!dropdown)}}>&#9776;
+                <div className={`${dropdown ? "dropdown" : "hidden"}`}>
+                    <ul>
+                        <li>Home</li>
+                        <li>About</li>
+                        <li>Projects</li>
+                        <li>Contact</li>
+                    </ul>
+                </div>
+                </a>                
             </ul>
         </nav>
     )

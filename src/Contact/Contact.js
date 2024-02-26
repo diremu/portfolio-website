@@ -1,5 +1,4 @@
 import './Contact.css'
-import Navbar from '../components/Navbar/Navbar';
 import Reddit from '../components/Images/Reddit_Icon_FullColor.png';
 import Gmail from '../components/Images/gmail.png';
 import Twitter from '../components/Images/twitter.png'

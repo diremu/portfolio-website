@@ -65,8 +65,13 @@
     text-align: right;
 }
 
+.card-headings {
+    font-weight: 520;
+}
+
 .content p {
     font-size: 1.25rem;
+    font-weight: 470;
 }
 
 .life-divs {

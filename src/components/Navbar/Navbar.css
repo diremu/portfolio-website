@@ -177,9 +177,15 @@ nav ul li:last-child {
 }
 
 .hidden {
+    display:none;
     position:absolute;
-    display: none;
-    overflow: hidden;
+    left:0;
+    top:0;
+    z-index: -1;
+}
+
+.hidden:hover {
+    cursor:default;
 }
 
 .visibleNav {

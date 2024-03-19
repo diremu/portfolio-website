@@ -11,6 +11,19 @@
     align-self: flex-end;
 }
 
+#home-mdiv {
+    text-align: center;
+}
+
+#home-head {
+    font-weight: 470;
+}
+
+#home-para {
+    font-size: 1.8rem;
+    font-weight: 450;
+}
+
 #home-div-heading {
     text-align: right;
     gap: 1rem;
@@ -75,6 +88,8 @@ video {
     display: inline-block;
     transform: translateY(-100%);
     transition: transform 0.8s ease-in-out;
+    font-size: 2.54rem;
+
 }
 
 .hidden {

@@ -1,5 +1,5 @@
 * {
-    /* outline: 1px solid red; */
+    outline: 1px solid red;
     scroll-behavior: smooth;
 }
 
@@ -177,9 +177,15 @@ nav ul li:last-child {
 }
 
 .hidden {
+    display:none;
     position:absolute;
-    display: none;
-    overflow: hidden;
+    left:0;
+    top:0;
+    z-index: -1;
+}
+
+.hidden:hover {
+    cursor:default;
 }
 
 .visibleNav {
@@ -191,4 +197,10 @@ nav ul li:last-child {
     padding: 10px 20px;
     display: flex;
     justify-content: center;
+}
+
+.dropdown {
+    display: flex;
+    flex-direction: column;
+    color: green;
 }

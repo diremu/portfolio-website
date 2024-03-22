@@ -11,13 +11,13 @@ function Introduction() {
                 <div id="explore-link">
                     <a href="home">Explore <span id="arrow">&rarr;</span></a>
                 </div>
-                <div id="home-div">
+                {/* <div id="home-div">
                     <div className="video-wrapper">
                         <video autoPlay  muted loop id="myVideo">
                             <source src={background} type="video/mp4" />
                         </video>
                     </div>
-                </div>
+                </div> */}
             </div>
         </div>
     )

@@ -22,4 +22,4 @@ export default function Contact() {
 }
 
 // For this write if you wish to inquire me for my skills or professional advice, contact me through the following handles.
-// There would be a navabr at the side that contains all the handles and would be scrollable and if not possible, i will just put four or three.
+// There would be a navbar at the side that contains all the handles and would be scrollable and if not possible, i will just put four or three.

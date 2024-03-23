@@ -13,10 +13,12 @@
 
 #home-mdiv {
     text-align: center;
+    margin-bottom: 22vh;
 }
 
 #home-head {
     font-weight: 470;
+    letter-spacing: 18px;
 }
 
 #home-para {
@@ -60,7 +62,7 @@
     animation-duration: 3s;
 }
 
-.video-wrapper {
+/* .video-wrapper {
     position: relative;
     overflow:hidden;
     text-align: center;
@@ -81,7 +83,7 @@ video {
   position: fixed;
   top: 0;
   left: 0;
-}
+} */
 
 
 #home-head {

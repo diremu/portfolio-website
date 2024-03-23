@@ -1,5 +1,5 @@
 * {
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
     scroll-behavior: smooth;
 }
 
@@ -57,7 +57,7 @@ nav ul a {
 #top-nav a:hover {
     background-color:var(--h-color);
     color: whitesmoke;
-    border-bottom: 2px solid #111000;
+    /* border-bottom: .7px solid #111000;    */
     border-top-left-radius: 8px;
     border-bottom-right-radius: 8px;
 }

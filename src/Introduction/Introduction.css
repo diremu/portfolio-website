@@ -5,6 +5,12 @@
     border:1.1px solid black;
 }
 
+#introduction-div {
+    padding: 5%;
+    color:black;
+    border-top: 1.1px solid black;
+}
+
 div>p {
     font-size: 2.3rem;
     font-weight: 700;
@@ -30,8 +36,11 @@ div>p {
 }
 
 #explore-link a:hover {
-    background-color: #cacaca4d;
-    transition: background-color .8s;
+    background-color: rgb(42, 42, 44);
+    color: #dddbdb;
+    border-top: 3px solid rgb(42, 42, 44);
+    border-bottom: 3px solid rgb(42, 42, 44);
+    transition: background-color .8s, color 0.8s, border-bottom 0.8s, border-top 0.8s;
 }
 
 

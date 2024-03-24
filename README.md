@@ -29,3 +29,5 @@ All Contributions such as Feedbacks, Issues, Ideas and Compliments should go the
 - Remove the bolded part of the navbar
 - Edit the education card
 - Change the card design to include different picture on top of it
+- Navbar bug: when clicked shows on other widths
+- Fix Cards Overlapping issue

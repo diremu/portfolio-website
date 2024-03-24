@@ -8,3 +8,14 @@
 #projectsp {
     font-weight: 470;
 }
+
+#projectsdiv {
+    text-align: center;
+}
+
+.projects-icons {
+    height: 10.5vh;
+    max-height: 150px;
+    min-height: 80px;
+    padding: 0 8% 0 0%;
+}

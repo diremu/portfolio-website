@@ -5,7 +5,7 @@ import Cards from '../components/Cards/Cards';
 const About = () => {
     return(
     <div id="about">
-        <h2 id="about-h">ABOUT ME</h2>
+        <h2 id="about-h">ABOUT</h2>
         <div id="cards-container">
             <Cards id="first-card" heading="Education" content={
                 <>

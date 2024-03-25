@@ -16,12 +16,12 @@ export default function Home() {
         letters.forEach((letter, index) => {
             const span = document.createElement('span');
             span.textContent = letter;
-            span.style.transitionDelay = `${index * 120}ms`;
+            span.style.transitionDelay = `${index * 250}ms`;
             textElement.appendChild(span)
         })
         setTimeout(() => {
             textElement.style.transform = 'translateY(0%)';
-          }, 0)})
+          }, 400)})
     return (
         <div id="home">
             <Navbar />

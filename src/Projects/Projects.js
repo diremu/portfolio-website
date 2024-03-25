@@ -10,7 +10,7 @@ const Projects = () => {
         <p id="projectsp">- These are the technologies and projects I have created using the technologies and skills at my disposal.
         </p>
         <div id="projectsdiv">
-            <img src={html} className="projects-icons"  alt="" />
+            <img src={html} className="projects-icons"  alt="hey" />
             <img src={css} className="projects-icons"  alt="" />
             <img src={react} className="projects-icons"  alt="" />
         </div>        

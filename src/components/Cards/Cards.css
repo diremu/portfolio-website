@@ -26,15 +26,16 @@
     color: black;
     padding: 1.6%;
     cursor: pointer;
-    /* transition: 1.2s; */
     width: 15vw;
     min-width: 180px;
     box-shadow: 0 3px 5px black;
     height: auto;
+    /* transition: width 1.2s; */
 }
 
 .cards:hover {
     box-shadow:0 5px 8px black;
+    width: 50vw;
     transition: box-shadow 0.8s; 
 }
 

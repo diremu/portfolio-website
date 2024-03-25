@@ -1,6 +1,7 @@
 import  './About.css';
 import React from 'react';
 import Cards from '../components/Cards/Cards';
+import Ope from "./pic.png";
 
 const About = () => {
     return(
@@ -29,6 +30,13 @@ const About = () => {
                 </>
             } className="life-divs"  />
         </div>
+        {/* <div id="new-cards">
+            <div id="new-cards-img">
+                <img src={Ope} alt="" />
+                <div></div>
+            </div>
+            <div id="new-cards-text"></div>
+        </div> */}
     </div>
 )
 }

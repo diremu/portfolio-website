@@ -18,7 +18,7 @@ All Contributions such as Feedbacks, Issues, Ideas and Compliments should go the
 - Make use of the cards design for education(without AI) ..
 - Remove hover background on home anchor ..
 - Use typing animation for landing page ..
-- Download the necessary icons and pictures for Projects page
+- Download the necessary icons and pictures for Projects page.
 - Add border-radius to the explore button ..
 - Place an arrow in the explore button and add a hover animation .
 - Replace footer with button that leads to Contact page ..
@@ -27,7 +27,9 @@ All Contributions such as Feedbacks, Issues, Ideas and Compliments should go the
 - Fix the mobile navbar issue
 - Find an appropriate contact page design
 - Remove the bolded part of the navbar
-- Edit the education card
-- Change the card design to include different picture on top of it
+- Edit the education card .
+- Change the card design to include different picture on top of it .
 - Navbar bug: when clicked shows on other widths
 - Fix Cards Overlapping issue
+- Download image for  inspiration
+- Remove the milestones and progress card

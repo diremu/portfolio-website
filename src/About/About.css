@@ -118,17 +118,17 @@
 
 #cards-container .cards a {
     text-decoration:  none;
-    color: rgb(92, 199, 92);
+    color: rgb(40, 18, 122);
 }
 #cards-container .cards p {
     text-align: left;
 }
 
 #cards-container .cards a:visited {
-    color:green;
+    color:rgb(40, 18, 122);
 }
 
-#cards-container .cards:first-of-type{
+#cards-container .cards#first-card{
     background-image: url('../components/Images/Stacked\ Books\ PNG\ Images\,\ \ Hand\ Painted\,\ Book\,\ Book\ PNG\ Transparent\ Background\ -\ Pngtree.jpeg');  
 }
 
@@ -138,4 +138,21 @@
     letter-spacing: 18px;
     word-spacing: 0px;
     text-align: center;
+}
+
+#new-cards{
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-content:center;
+    padding: 10px;
+    min-height: 90vh;
+    position: relative;
+    overflow:hidden;
+    flex-direction: column;
+}
+
+#new-cards-img {
+    height: auto;
+    width: 0vw;
 }

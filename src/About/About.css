@@ -108,7 +108,7 @@
 }
 
 #experience-list {
-    list-style-type:circle;
+    list-style-type:square;
 }
 
 #cards-container .cards{
@@ -155,4 +155,20 @@
 #new-cards-img {
     height: auto;
     width: 0vw;
+}
+
+#growth {
+    font-size: 2rem;
+    font-weight: 470;
+    letter-spacing: 14px;
+    text-align: center;
+}
+
+#growth > span {
+    border-bottom: 3px solid black;
+}
+
+#growth-p, #growth-pp {
+    font-size: 1.4rem;
+    text-align: left;
 }

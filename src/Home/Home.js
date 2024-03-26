@@ -27,7 +27,7 @@ export default function Home() {
             <Navbar />
             <div id="home-mdiv">
                 <h2 id="home-head" className={`${inView ? "visible" : "hidden"}`} ref={ref}>INTRO</h2>
-                <p id="home-para">As an aspiring Computer science student set to graduate with a Bachelor's Degree in the 2nd quarter of 2026, I have been on the path of learning and mastering the latest as well as the most stable technologies in this industry. As a result of learning and constant practice, I have acquired a plethora of skills that I am certain to use and fufill whatsoever job I'm given.</p>
+                <p id="home-para">As an aspiring Computer science student set to graduate with a Bachelor's Degree in the 2nd quarter of 2026, I have been on the path of learning and mastering the latest as well as the most stable technologies in this industry. As a result of learning and constant practice, I have acquired skills that I am certain to use and fufill whatsoever job I'm given.</p>
             </div>
             <About />
             <Projects />

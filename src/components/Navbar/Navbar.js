@@ -2,17 +2,17 @@ import './Navbar.css'
 import Code from '../Images/code-solid.svg'
 import React, {useEffect, useState} from 'react'
 
-function DropdownMenu() {
-    // should have a toggle state
-    // should also create a div that dropdowns when the toggle part is on
-    // consists of mini-links that still use react-router
+// function DropdownMenu() {
+//     // should have a toggle state
+//     // should also create a div that dropdowns when the toggle part is on
+//     // consists of mini-links that still use react-router
 
-    return (
-        <>
+//     return (
+//         <>
 
-        </>
-    )
-}
+//         </>
+//     )
+// }
 
 const Navbar = () => {
     const [activeLink, setActiveLink] = useState(sessionStorage.getItem('activeLink') || 'home');
@@ -40,7 +40,7 @@ const Navbar = () => {
     })
     const [dropdown, setDropdown] = useState(false);
     return(
-        <nav id={`${shrunk === "tablet" ? "tablet" : shrunk === "mobile" ? "mobile" : "top-nav"}`} className={`hey ${shrunk === "mobile" ? "mobile" : ""} `}>
+        <nav id={`${shrunk === "tablet" ? "tablet" : shrunk === "mobile" ? "mobile" : "top-nav"}`}>
             <ul>
                 <li>
                     <a href="/" id="nav-title">Diremu.</a><img src={Code} alt=""  id="code-image"/>
@@ -58,6 +58,7 @@ const Navbar = () => {
                     <a href="#contact" onClick={()=> handleLinkClick("contact")}>Contact</a>
                     </li>
                 <a href={`javascript:void(0)`} className={`${(shrunk === "tablet" || shrunk === "mobile") ? "visibleNav" : "hidden" }`} onClick={() => {setDropdown(!dropdown)}}>&#9776;
+                </a>                
                 <div className={`${dropdown ? "dropdown" : "hidden"}`}>
                     <ul>
                         <li>Home</li>
@@ -66,7 +67,6 @@ const Navbar = () => {
                         <li>Contact</li>
                     </ul>  
                 </div>
-                </a>                
             </ul>
         </nav>
     )

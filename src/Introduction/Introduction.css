@@ -58,8 +58,7 @@ div>p {
     color: black;
 }
 #intro-nav-title:hover {
-    color: #c5bfbf8c;
-    transition: color 0.9s;
+    color: #2c29299f;
 }
 #arrow {
     color: black;

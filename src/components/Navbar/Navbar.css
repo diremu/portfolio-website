@@ -1,5 +1,5 @@
 * {
-    /* outline: 1px solid red; */
+    outline: 1px solid red;
     scroll-behavior: smooth;
 }
 
@@ -155,12 +155,30 @@ nav ul li:last-child {
     color: black;
 }
 
-.mobile {
+#mobile {
     font-size: 20px;
     border-bottom: 3px solid var(--b-color)
 }
 
-.mobile>ul {
+#mobile ul li {
+    display: none;
+    position: absolute;
+    overflow: hidden;
+}
+
+#mobile ul li:first-child {
+    display:inline;
+    position: relative;
+    font-size: 4.25vw;
+    padding-top: 2%;
+}
+
+#mobile ul:first-child {
+    display: flex;
+    flex-direction: row;
+}
+
+#mobile ul {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -168,11 +186,11 @@ nav ul li:last-child {
     justify-content: center;
 }
 
-.mobile>ul:first-child{
+#mobile ul:first-child{
     width: 80%;
 }
 
-.mobile a:visited{
+#mobile a:visited{
     color: black;
 }
 
@@ -193,7 +211,6 @@ nav ul li:last-child {
     height: auto;
     font-size: 1.4em;
     color: black;
-    border: 1.5px solid black;
     padding: 10px 20px;
     display: flex;
     justify-content: center;

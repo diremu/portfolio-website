@@ -32,4 +32,5 @@ All Contributions such as Feedbacks, Issues, Ideas and Compliments should go the
 - Navbar bug: when clicked shows on other widths
 - Fix Cards Overlapping issue
 - Download image for  inspiration
-- Remove the milestones and progress card
+- Remove the milestones and progress card ..
+- Replace the triple lines button with an svg

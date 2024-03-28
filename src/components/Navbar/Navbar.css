@@ -217,7 +217,12 @@ nav ul li:last-child {
 }
 
 .dropdown {
-    color: green;
+    display: none;
+    transition: all 0.3s ease;
+}
+
+.dropdown-show {
+    display:block;
 }
 
 .dropdown ul {

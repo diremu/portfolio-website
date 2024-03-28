@@ -59,7 +59,7 @@ const Navbar = () => {
                     </li>
                 <a href={`javascript:void(0)`} className={`${(shrunk === "tablet" || shrunk === "mobile") ? "visibleNav" : "hidden" }`} onClick={() => {setDropdown(!dropdown)}}>&#9776;
                 </a>                
-                <div className={`${dropdown ? "dropdown" : "hidden"}`}>
+                <div className={`dropdown ${dropdown ? "dropdown-show" : "hidden"}`}>
                     <ul>
                         <li>Home</li>
                         <li>About</li>

@@ -2,6 +2,7 @@ import  './About.css';
 import React from 'react';
 import Cards from '../components/Cards/Cards';
 import Ope from "./pic.png";
+import EducatePic from '../components/Images/education.jpeg';
 
 const About = () => {
     return(
@@ -13,7 +14,7 @@ const About = () => {
                     <p id="learning-divh">I started my primary education in the <a href="https://smsabuja.com" target="_blank" rel="noreferrer">Stella Maris School</a> located in Abuja, Nigeria. I finished my primary education at Primary 5 in the Early Beginners School. I went on to spend 6 years in the boarding school <a href="https://bhsa.org" target="_blank" rel="noreferrer" >Baptist High School</a>, Abuja.</p>
                     <p>Afterwards, I then went on to pursue a Bachelor's Degree in Computer Science in <a href="https://lmu.edu.ng" target="_blank" rel="noreferrer">Landmark University</a>, Kwara State, Nigeria. In this environment, I have had the opportunity to begin a path up the career of Full-Stack Engineering.</p>
                 </>
-            }className="life-divs" />
+            }className="life-divs" image={EducatePic} />
 
             <Cards id="second-card" heading="Inspiration" content= {
                 <p>Since the 1990s, Website making and designing has become ever more of a big deal. To take part in such an industry and possibly contribute to it such that the entire community is appreciative of that effort is enough of a reason for me to venture into the career of Full-Stack Engineering.</p>

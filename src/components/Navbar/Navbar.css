@@ -1,5 +1,5 @@
 * {
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
     scroll-behavior: smooth;
 }
 
@@ -217,7 +217,10 @@ nav ul li:last-child {
 }
 
 .dropdown {
+    color: green;
+}
+
+.dropdown ul {
     display: flex;
     flex-direction: column;
-    color: green;
 }

@@ -43,9 +43,9 @@ const Navbar = () => {
         <nav id={`${shrunk === "tablet" ? "tablet" : shrunk === "mobile" ? "mobile" : "top-nav"}`}>
             <ul>
                 <li>
-                    <a href="/" id="nav-title">Diremu.</a><img src={Code} alt=""  id="code-image"/>
+                    <a href="/" id="nav-title">Diremu.</a><img src={Code} alt=""  id="code-image" />
                     </li>
-                <li className={activeLink === 'home' ? "active" : ""}>
+                <li className={activeLink === 'home' ? "active" : ""} >
                     <a href="#home" onClick={()=> handleLinkClick("home")}>Home</a>
                     </li>
                 <li className={activeLink === 'about' ? "active" : ""}>

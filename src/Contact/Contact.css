@@ -1,5 +1,5 @@
-body {
-    background-color: whitesmoke;
+#contact {
+    background-color: var(--tertiary-color);
 }
 
 #contact-div {

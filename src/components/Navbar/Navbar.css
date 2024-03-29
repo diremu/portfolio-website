@@ -223,6 +223,8 @@ nav ul li:last-child {
 
 .dropdown-show {
     display:block;
+    position: relative;
+    
 }
 
 .dropdown ul {

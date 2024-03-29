@@ -1,5 +1,9 @@
 /* @import './styles/tailwind.css'; */
-
+:root {
+  --tertiary-color: rgb(42, 42, 44);
+  --primary-color: rgb(255, 255, 255);
+  --secondary-color: rgb(196, 193, 193);
+}
 
 @font-face {
   font-family: 'Quicksand';

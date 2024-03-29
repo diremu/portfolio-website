@@ -1,9 +1,13 @@
 #introduction {
     padding: 5%;
     color: black;
-    background-color: #e2e0e0;
-    border:1.1px solid black;
+    background-color: var(--secondary-color);
+    border: 1.1px solid black;
     box-shadow: 0px 1px 10px black;
+}
+
+body{
+    background-color: var(--primary-color);
 }
 
 #introduction-div {
@@ -28,41 +32,34 @@ div>p {
 #explore-link a {
     padding: 15px;
     text-decoration: none;
-    border-top: 3px solid rgb(153, 144, 144);
-    border-bottom: 3px solid rgb(153, 144, 144);
-    color: black;
+    padding: 22px;
+    color: white;
     font-size: 1.5rem;
     border-radius: 10px;
+    background-color: var(--tertiary-color);
     transition: background-color .8s;
-}
-
-#explore-link a:hover {
-    background-color: rgb(42, 42, 44);
-    color: #dddbdb;
-    border-top: 3px solid rgb(42, 42, 44);
-    border-bottom: 3px solid rgb(42, 42, 44);
-    transition: background-color .8s, color 0.8s, border-bottom 0.8s, border-top 0.8s;
 }
 
 #intro-nav {
     margin:0;
     padding:0;
     display:flex;
+    background-color: var(--primary-color);
 }
 #intro-nav li {
-    color: black;
+    color: var(--primary-color);
+    background-color: var(--tertiary-color);
+    padding: 4px;
+    border-radius: 6px;
 }
 #intro-nav-title {
-    color: black;
+    color: var(--primary-color);
 }
 #intro-nav-title:visited {
-    color: black;
-}
-#intro-nav-title:hover {
-    color: #2c29299f;
+    color: var(--primary-color);
 }
 #arrow {
-    color: black;
+    color: var(--primary-color);
 }
 #explore-link a:hover #arrow {
     animation: 2s normal 1 hover-right;

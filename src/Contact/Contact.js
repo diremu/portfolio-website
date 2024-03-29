@@ -8,18 +8,15 @@ export default function Contact() {
     <div id="contact">
         <div id="contact-div">
             <p id="contact-p">
-                If you wish to inquire me for my skills or my professional advice, you may contact me through the following handles:
+                Do you want to contact me? Do so through the following channels:
             </p>
             <nav id="contact-nav">
                 <ul>
-                    <li><span>Reddit  -  </span><a href="https://reddit.com"><img src={Reddit} alt="" className="social-handles" /></a></li>
-                    <li><span>Gmail  -  </span><a href="https://gmail.com"><img src={Gmail} alt="" className="social-handles" /></a></li>
-                    <li><span>Twitter  -  </span><a href="https://twitter.com"><img src={Twitter} alt="" className="social-handles" /></a></li>
+                    <li><a href="https://reddit.com"><img src={Reddit} alt="" className="social-handles" /></a></li>
+                    <li><a href="https://gmail.com"><img src={Gmail} alt="" className="social-handles" /></a></li>
+                    <li><a href="https://twitter.com"><img src={Twitter} alt="" className="social-handles" /></a></li>
                 </ul>
             </nav>
         </div>    
     </div>)
 }
-
-// For this write if you wish to inquire me for my skills or professional advice, contact me through the following handles.
-// There would be a navbar at the side that contains all the handles and would be scrollable and if not possible, i will just put four or three.

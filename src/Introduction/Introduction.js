@@ -7,7 +7,7 @@ function Introduction() {
         <div id="introduction">
             <div><nav id="intro-nav"><ul><li><a href="home"  id="intro-nav-title">Diremu.</a><img src={Code} alt=""  id="code-image"/></li></ul></nav></div>
             <div id="introduction-div">
-                <p>"Welcome to a visual journey where creativity meets craftsmanship, showcasing a portfolio that transcends boundaries and brings ideas to life with passion and precision."</p>
+                <p>I'm Diremu Adebanjo and I bring the best tool in the shed for solo clients.</p>
                 <div id="explore-link">
                     <a href="home">Explore <span id="arrow">&rarr;</span></a>
                 </div>

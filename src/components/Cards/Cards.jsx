@@ -15,7 +15,7 @@ export default function Cards(props) {
         height: '100%',
         backgroundSize: 'cover',
         backgroundImage: `url(${props.image})`,
-        filter: 'blur(2px)',
+        filter: 'blur(4px)',
     }
     const textStyle = {
         position: 'relative',

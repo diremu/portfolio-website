@@ -10,12 +10,14 @@ nav {
 #top-nav {
     background-color: transparent;
     overflow: hidden;
+    background-color: var(--secondary-color);
+    padding-top: 20px
 }
 
 #top-nav ul {
     display: flex;
     gap: 1.4rem;
-    margin: none;
+    margin:0;
     flex-wrap: nowrap;
     justify-content:center;
     align-items: flex-end;
@@ -32,7 +34,7 @@ nav li {
     list-style: none;
 }
 
-nav li:first-child {
+#top-nav li:first-child, #tablet li:first-child, #mobile li:first-child {
     font-size: 1.8rem;
     font-weight: 750;
     flex-basis: 65%;
@@ -224,7 +226,6 @@ nav ul li:last-child {
 .dropdown-show {
     display:block;
     position: relative;
-    
 }
 
 .dropdown ul {

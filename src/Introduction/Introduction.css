@@ -4,6 +4,7 @@
     background-color: var(--secondary-color);
     border: 1.1px solid black;
     box-shadow: 0px 1px 10px black;
+    margin: 40px;
 }
 
 body{

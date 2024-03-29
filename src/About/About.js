@@ -3,6 +3,7 @@ import React from 'react';
 import Cards from '../components/Cards/Cards';
 import Ope from "./pic.png";
 import EducatePic from '../components/Images/education.jpeg';
+import InspirePic from '../components/Images/inspiration.jpg';
 
 const About = () => {
     return(
@@ -18,7 +19,7 @@ const About = () => {
 
             <Cards id="second-card" heading="Inspiration" content= {
                 <p>Since the 1990s, Website making and designing has become ever more of a big deal. To take part in such an industry and possibly contribute to it such that the entire community is appreciative of that effort is enough of a reason for me to venture into the career of Full-Stack Engineering.</p>
-            }className="life-divs" />
+            }className="life-divs" image={InspirePic} />
         </div>
         <div>
             <h3 id="growth"><span>MY GROWTH</span></h3>

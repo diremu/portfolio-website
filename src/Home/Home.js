@@ -16,18 +16,21 @@ export default function Home() {
         letters.forEach((letter, index) => {
             const span = document.createElement('span');
             span.textContent = letter;
-            span.style.transitionDelay = `${index * 250}ms`;
+            span.style.transitionDelay = `${index * 300}ms`
+            // span.style.transform = 'translateY(-100%)';
             textElement.appendChild(span)
         })
         setTimeout(() => {
             textElement.style.transform = 'translateY(0%)';
+            textElement.style.animationDuration= '500'
+            
           }, 400)})
     return (
         <div id="home">
             <Navbar />
             <div id="home-mdiv">
                 <h2 id="home-head" className={`${inView ? "visible" : "hidden"}`} ref={ref}>INTRO</h2>
-                <p id="home-para">As an aspiring Computer science student set to graduate with a Bachelor's Degree in the 2nd quarter of 2026, I have been on the path of learning and mastering the latest as well as the most stable technologies in this industry. As a result of learning and constant practice, I have acquired skills that I am certain to use and fufill whatsoever job I'm given.</p>
+                <p id="home-para">As an aspiring Computer science student set to graduate with a Bachelor's Degree in the 2nd quarter of 2026, I have been on the path of learning and mastering the latest as well as the most stable technologies in this industry. As a result of learning and constant practice, I have acquired skills that I am certain to use and fulfill whatsoever job I'm given.</p>
             </div>
             <About />
             <Projects />

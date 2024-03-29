@@ -1,6 +1,7 @@
 import './Navbar.css' 
 import Code from '../Images/code-solid.svg'
 import React, {useEffect, useState} from 'react'
+import Bar from '../Images/bars-solid.svg'
 
 // function DropdownMenu() {
 //     // should have a toggle state
@@ -57,8 +58,8 @@ const Navbar = () => {
                 <li className={activeLink === 'contact' ? "active" : ""}>
                     <a href="#contact" onClick={()=> handleLinkClick("contact")}>Contact</a>
                     </li>
-                <a href={`javascript:void(0)`} className={`${(shrunk === "tablet" || shrunk === "mobile") ? "visibleNav" : "hidden" }`} onClick={() => {setDropdown(!dropdown)}}>&#9776;
-                </a>                
+                <button className={`${(shrunk === "tablet" || shrunk === "mobile") ? "visibleNav" : "hidden" }`} onClick={() => {setDropdown(!dropdown)}}><img src={Bar} alt="" />
+                </button>                
                 <div className={`dropdown ${dropdown ? "dropdown-show" : "hidden"}`}>
                     <ul>
                         <li>Home</li>

@@ -3,6 +3,12 @@
     --h-color : #1d1e75e5;
 }
 
+#about {
+    background-color: var(--secondary-color);
+    margin: 18px;
+    padding: 5px 0;
+}
+
 .animated-section {
     opacity: 0;
     transform: translateY(20px);
@@ -122,6 +128,10 @@
 }
 #cards-container .cards p {
     text-align: left;
+}
+
+#second-card {
+    color: white;
 }
 
 #cards-container .cards a:visited {

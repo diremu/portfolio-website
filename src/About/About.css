@@ -5,8 +5,9 @@
 
 #about {
     background-color: var(--secondary-color);
-    margin: 18px;
+    margin: 18px 18px 40px 18px;
     padding: 5px 0;
+    border-radius: 12px;
 }
 
 .animated-section {

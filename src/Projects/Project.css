@@ -19,3 +19,9 @@
     min-height: 80px;
     padding: 0 8% 0 0%;
 }
+
+#projects {
+    background-color: var(--secondary-color);
+    margin: 4vh 4vh 2vh 4vh;
+    border-radius: 16px;
+}

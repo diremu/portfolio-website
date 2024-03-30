@@ -12,9 +12,9 @@ export default function Contact() {
             </p>
             <nav id="contact-nav">
                 <ul>
-                    <li><a href="https://reddit.com"><img src={Reddit} alt="" className="social-handles" /></a></li>
-                    <li><a href="https://gmail.com"><img src={Gmail} alt="" className="social-handles" /></a></li>
-                    <li><a href="https://twitter.com"><img src={Twitter} alt="" className="social-handles" /></a></li>
+                    <li><a href="https://www.reddit.com/user/cursed_line/" target="_blank" rel="noreferrer"><img src={Reddit} alt="" className="social-handles" /></a></li>
+                    <li><a href="https://mail.google.com/mail/u/adebanjo.direoluwamu.lmu.edu.ng" target="_blank" rel="noreferrer"><img src={Gmail} alt="" className="social-handles" /></a></li>
+                    <li><a href="https://t.co/eFWgcFPiDf" target="_blank" rel="noreferrer"><img src={Twitter} alt="" className="social-handles" /></a></li>
                 </ul>
             </nav>
         </div>    

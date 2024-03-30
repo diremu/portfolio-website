@@ -58,7 +58,7 @@ const Navbar = () => {
                 <li className={activeLink === 'contact' ? "active" : ""}>
                     <a href="#contact" onClick={()=> handleLinkClick("contact")}>Contact</a>
                     </li>
-                <button className={`${(shrunk === "tablet" || shrunk === "mobile") ? "visibleNav" : "hidden" }`} onClick={() => {setDropdown(!dropdown)}}><img src={Bar} alt="" />
+                <button className={`${(shrunk === "tablet" || shrunk === "mobile") ? "visibleNav" : "hidden" }`} onClick={() => {setDropdown(!dropdown)}}><img src={Bar} alt="" id="bar-img" />
                 </button>                
                 <div className={`dropdown ${dropdown ? "dropdown-show" : "hidden"}`}>
                     <ul>

@@ -228,7 +228,13 @@ nav ul li:last-child {
     position: relative;
 }
 
-.dropdown ul {
+.dropdown-show ul {
     display: flex;
     flex-direction: column;
+}
+
+#bar-img {
+    color: black;
+    width: 50px;
+    height: 40px;
 }

@@ -17,7 +17,9 @@ body {
 
 #home-mdiv {
     text-align: center;
-    margin-bottom: 22vh;
+    background-color: var(--secondary-color);
+    margin:3vh 3vh 10vh 3vh;
+    border-radius: 12px;
     padding: 10vh 0;
 }
 

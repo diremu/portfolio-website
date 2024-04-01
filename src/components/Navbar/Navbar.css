@@ -13,7 +13,9 @@ nav {
     background-color: var(--secondary-color);
     padding-top: 20px
 }
-
+#top-nav ul a:visited, #top-nav ul a:visited:hover, #top-nav ul a:visited:active {
+    color:black;
+}
 #top-nav ul {
     display: flex;
     gap: 1.4rem;
@@ -57,11 +59,11 @@ nav ul a {
 }
 
 #top-nav a:hover {
-    background-color:var(--h-color);
-    color: whitesmoke;
+    background-color:var(--tertiary-color);
+    color: white;
     /* border-bottom: .7px solid #111000;    */
     border-top-left-radius: 8px;
-    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
 }
 
 #top-nav .icon {

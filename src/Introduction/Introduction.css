@@ -55,6 +55,8 @@ div>p {
 }
 #intro-nav-title {
     color: var(--primary-color);
+    padding: 1.5%;
+    font-size: 15px;
 }
 #intro-nav-title:visited {
     color: var(--primary-color);
